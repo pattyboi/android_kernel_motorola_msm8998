@@ -37,7 +37,7 @@ all: out/.config $(SUBMODULES)
 
 out/.config: $(SUBMODULES)
 	@printf "\e[1;32mGenerating configuration...\e[0m\n"
-	@$(MAKE) -f Makefile O=out b1c1_defconfig
+	@$(MAKE) -f Makefile O=out payton_defconfig
 
 clean-toolchains:
 	@printf "\e[1;32mCleaning toolchains...\e[0m\n"

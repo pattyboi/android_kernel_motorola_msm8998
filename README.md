@@ -1,4 +1,3 @@
-## Pixel 3 / 3 XL Kernel
 
 Run `make` to compile. An aarch64 toolchain will be downloaded and configured.
 
